@@ -1,0 +1,90 @@
+[
+    {
+        "tittle": "x1",
+        "img": "",
+        "descripcion": "",
+        "categoria": [
+            "deporte",
+            "ciencia",
+            "politica",
+            "tecnologia",
+            "tendencias"
+        ],
+        "cuerpo": "",
+        "creditos": {
+            "autor": "asadsa",
+            "correo": "sdadasfa",
+            "redessociales": {
+                "instagram": "sadasda",
+                "facebook": "sadfsadf",
+                "x": ""
+            }
+        }
+    },
+    {
+        "tittle": "x2",
+        "img": "",
+        "descripcion": "",
+        "categoria": [
+            "deporte",
+            "ciencia",
+            "politica",
+            "tecnologia",
+            "tendencias"
+        ],
+        "cuerpo": "",
+        "creditos": {
+            "autor": "asadsa",
+            "correo": "sdadasfa",
+            "redessociales": {
+                "instagram": "sadasda",
+                "facebook": "sadfsadf",
+                "x": ""
+            }
+        }
+    },
+    {
+        "tittle": "x3",
+        "img": "",
+        "descripcion": "",
+        "categoria": [
+            "deporte",
+            "ciencia",
+            "politica",
+            "tecnologia",
+            "tendencias"
+        ],
+        "cuerpo": "",
+        "creditos": {
+            "autor": "asadsa",
+            "correo": "sdadasfa",
+            "redessociales": {
+                "instagram": "sadasda",
+                "facebook": "sadfsadf",
+                "x": ""
+            }
+        }
+    },
+    {
+        "tittle": "x4",
+        "img": "",
+        "descripcion": "",
+        "categoria": [
+            "deporte",
+            "ciencia",
+            "politica",
+            "tecnologia",
+            "tendencias"
+        ],
+        "cuerpo": "",
+        "creditos": {
+            "autor": "asadsa",
+            "correo": "sdadasfa",
+            "redessociales": {
+                "instagram": "sadasda",
+                "facebook": "sadfsadf",
+                "x": ""
+            }
+        }
+    }
+]
