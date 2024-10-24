@@ -1,3 +1,6 @@
 <template>
-    <h1>hola mundo</h1>
+    <div>
+        <Navigation/>
+        <h1>Hola mundo</h1>
+    </div>
 </template>
