@@ -2,5 +2,5 @@
 import List from '~/components/List.vue';
 </script>
 <template>
-    <List></List>
+    <h1>hola mundo</h1>
 </template>
