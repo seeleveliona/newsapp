@@ -19,11 +19,4 @@ export const usePruebaStore = defineStore({
     getPruebas: (state) => state.pruebas,
     getPrueba: (state) => state.prueba,
   },
-
-  actions: {
-    async fetchPruebas() {
-      const pruebas = await $fetch("/api/prueba");
-      this.pruebas = pruebas;
-    },    
-  },
 });
