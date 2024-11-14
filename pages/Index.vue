@@ -3,18 +3,18 @@
 <template>
     <div>
         <h1>hola mundo</h1>
-        <Card />
+        <Post />
         <Navigation />
     </div>
 </template>
 
   <script setup>
   // Instanciar el store
-  const pruebaStore = usePruebaStore()
+  const NewStore = useNewStore()
   
 
-  await useAsyncData('pruebas', async () => {
-    await pruebaStore.fetchPruebas()
-    return pruebaStore.getPrueba 
+  await useAsyncData('News', async () => {
+    await NewStore.fetchNews()
+    return NewStore.getNew
   })
   </script>
