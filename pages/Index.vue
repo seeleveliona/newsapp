@@ -1,6 +1,20 @@
 <script setup lang="ts">
-import List from '~/components/List.vue';
 </script>
 <template>
-    <h1>hola mundo</h1>
+    <div>
+        <h1>hola mundo</h1>
+        <Post />
+        <Navigation />
+    </div>
 </template>
+
+  <script setup>
+  // Instanciar el store
+  const NewStore = useNewStore()
+  
+
+  await useAsyncData('News', async () => {
+    await NewStore.fetchNews()
+    return NewStore.getNew
+  })
+  </script>
