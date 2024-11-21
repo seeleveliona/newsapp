@@ -1,5 +1,5 @@
 <template>
     <div>
-        <v-btn><nuxt-link href="/productos">Productos</nuxt-link></v-btn>
+        <v-btn><nuxt-link href="/noticia">noticia</nuxt-link></v-btn>
     </div>
 </template>
