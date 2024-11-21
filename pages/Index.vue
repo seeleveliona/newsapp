@@ -1,15 +1,14 @@
 <script setup lang="ts">
 </script>
 <template>
-    <div>
-        <h1>hola mundo</h1>
-        <Post />
-        <Navigation />
-    </div>
+  <div>
+    <h1>hola mundo</h1>
+    <Post />
+    <Navigation />
+  </div>
 </template>
 
-  <script setup>
-  // Instanciar el store
+<script setup>
   const NewStore = useNewStore()
   
 
