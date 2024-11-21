@@ -7,7 +7,7 @@
         >
           <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
   
-          <v-toolbar-title>My files</v-toolbar-title>
+          <v-toolbar-title>Unicordtimes</v-toolbar-title>
   
           <v-spacer></v-spacer>
   
@@ -43,20 +43,20 @@
         group: null,
         items: [
           {
-            title: 'Foo',
-            value: 'foo',
+            title: 'Inicio',
+            value: 'inicio',
           },
           {
-            title: 'Bar',
-            value: 'bar',
+            title: 'Noticias',
+            value: 'noticias',
           },
           {
-            title: 'Fizz',
-            value: 'fizz',
+            title: 'Eventos',
+            value: 'eventos',
           },
           {
-            title: 'Buzz',
-            value: 'buzz',
+            title: 'Contactos',
+            value: 'contactos',
           },
         ],
       }),
