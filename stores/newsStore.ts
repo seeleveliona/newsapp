@@ -23,7 +23,7 @@ export const useNewStore = defineStore({
 
   actions: {
     async fetchNews() {
-      const news_data : any  = await $fetch("/api/news");
+      const news_data : any  = await $fetch("/api/News");
       this.news = news_data;
     },    
   },
