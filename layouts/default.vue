@@ -1,5 +1,6 @@
 <template>
     <v-card>
+      
       <v-layout>
         <v-app-bar
           color="primary"
@@ -13,8 +14,6 @@
   
           <template v-if="$vuetify.display.mdAndUp">
             <v-btn icon="mdi-magnify" variant="text"></v-btn>
-  
-            <v-btn icon="mdi-filter" variant="text"></v-btn>
           </template>
   
           <v-btn icon="mdi-dots-vertical" variant="text"></v-btn>
@@ -34,6 +33,7 @@
          <slot />
         </v-main>
       </v-layout>
+      <Footer/>
     </v-card>
   </template>
   <script>
